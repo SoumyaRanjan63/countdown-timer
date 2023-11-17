@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Sancreek&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #152032;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+}
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: #243a54;
+    top: 0;
+    left: 0; 
+    position: relative;
+    margin: auto;
+    z-index: 100;
+    color: rgba(255, 255, 255, 0.523);
+    font-family: "poppins Thin",sans-serif;
+    font-weight: 100;
+    border-radius: 50px;
+}
+.container h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 15px;
+    
+}
+#timer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    font-size: 120px;
+    font-family: 'Sancreek', serif;
+    margin-bottom: 5px;
+}
+#timer p{
+    color: #333;
+    background-image: linear-gradient(90deg, #a4f1c8, #697328);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.timer-indicators{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 7rem;
+    position: absolute;
+    gap: 90px;
+}
+.pin {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    top: 90px;
+    display: flex;
+    gap: 15rem;
+    left: 35rem;
+}
+
+.pin img {
+    position: relative;
+}
+
+.pin img:first-child {
+    top: 30px; 
+}
+
